@@ -2,24 +2,24 @@
 class Lockerdb < Formula
   desc "LockerDB is an in-memory key:value store written in Go."
   homepage "https://github.com/vinothsparrow/lockerdb"
-  version "0.0.4"
+  version "0.0.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/vinothsparrow/lockerdb/releases/download/v0.0.4/lockerdb_0.0.4_macOS_amd64.tar.gz"
-    sha256 "86dfb7a2172464b188d2c99930e00d638944276032c0f22491204c8d4d9f17a6"
+    url "https://github.com/vinothsparrow/lockerdb/releases/download/v0.0.5/lockerdb_0.0.5_macOS_amd64.tar.gz"
+    sha256 "db64c288e85421a8ab1a872050a586d7d03d764c59d8fc2a57f154eb4e98f2ba"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/vinothsparrow/lockerdb/releases/download/v0.0.4/lockerdb_0.0.4_linux_amd64.tar.gz"
-    sha256 "233ea7151d1a8c73b726e2f1e0d8683816fd20661781412e6c20817c7b823312"
+    url "https://github.com/vinothsparrow/lockerdb/releases/download/v0.0.5/lockerdb_0.0.5_linux_amd64.tar.gz"
+    sha256 "ae91f853461d9fe5617f8f7dc8a05f6bfe362d392ec4c1aabf94d8c745828864"
   end
   if OS.linux? && Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-    url "https://github.com/vinothsparrow/lockerdb/releases/download/v0.0.4/lockerdb_0.0.4_linux_armv6.tar.gz"
-    sha256 "2bd08150c1e9e74f5e62d1a3acb3cf57e85d5e7a0e593d72f150528e3e3bb22d"
+    url "https://github.com/vinothsparrow/lockerdb/releases/download/v0.0.5/lockerdb_0.0.5_linux_armv6.tar.gz"
+    sha256 "aa2f1d552f24fdc66e17b290d1eca626895725a9ffa51c0fcb24c98393063de1"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/vinothsparrow/lockerdb/releases/download/v0.0.4/lockerdb_0.0.4_linux_arm64.tar.gz"
-    sha256 "1c2b5625cfe38f54d8dca3efee1d46eb23bdbbd743775358c637cecd9368c650"
+    url "https://github.com/vinothsparrow/lockerdb/releases/download/v0.0.5/lockerdb_0.0.5_linux_arm64.tar.gz"
+    sha256 "fc11886175b96f5c38ad4e4c7089a5199e063308eb62bf6d5ef542d903770bcf"
   end
 
   def install
