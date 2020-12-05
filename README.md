@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/vinothsparrow/homebrew-lockerdb.svg?branch=master)](https://travis-ci.com/vinothsparrow/homebrew-lockerdb)
+[![Build Status](https://travis-ci.com/vinothsparrow/homebrew-lockerdb.svg?branch=main)](https://travis-ci.com/vinothsparrow/homebrew-lockerdb)
 
 # homebrew-lockerdb
 
